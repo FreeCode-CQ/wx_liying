@@ -1,0 +1,11 @@
+/* pages/404/404.wxss */
+.error{
+margin: 35% auto;
+text-align: center
+}
+.error > view{
+ margin-bottom: 20px
+}
+/* .btn_primary{
+ 
+} */

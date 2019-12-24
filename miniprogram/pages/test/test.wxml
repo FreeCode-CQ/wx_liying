@@ -1,0 +1,57 @@
+<view>
+<view class="Topic_selection" style="display:{{Topic?'none':'block'}}"  >
+    <view class="T_s_box" wx:for="{{data}}" data-index = '{{index}}' bindtap="Topic_click">
+      <image src="{{item.image}}"></image>
+       <view class="T_s_box_text">
+         <view>{{item.title}}</view>
+         <view>{{item.title1}}</view>
+         <view>{{item.title2}}</view>
+       </view>
+    </view>
+  
+</view>
+<view style="display:{{Topic?'block':'none'}}">
+  <view class="title" >
+    {{title}}
+  </view>
+  <view class="subtitle">
+    <view class="subtitle_item s-i-border">93题</view>
+    <view class="subtitle_item s-i-border">5分钟</view>
+    <view class="subtitle_item ">2387人测试过</view>
+  </view>
+  
+  <view class="test-container">
+    <view class="t-c-title">
+      施测流程
+    </view>
+    <view class="test-c-content">
+      <text>第1步</text> 调整心态：MBTI只测试自己的性格类型，而不同性格类型之间没有优劣之分；请放松心情，最大限度地摆脱各种外部环境的压力，尽量展现真实的自我。
+    </view>
+    <view class="test-c-content">
+      <text>第2步</text> 调整心态：MBTI只测试自己的性格类型，而不同性格类型之间没有优劣之分；请放松心情，最大限度地摆脱各种外部环境的压力，尽量展现真实的自我。
+    </view>
+
+    <view class="test-c-content">
+      <text>第3步</text> 答问卷：尽量在一种不假思索的状态下答题，无需过分思考“这道题是测什么的”。遇到一些觉得很纠结，无法取舍的问题是正常的，尽可能选择你在放松时最可能的倾向。
+    </view>
+
+    <view class="test-c-content">
+      <text>第4步</text> 将第一步测试结果提供的性格类型描述不同部分与自我感觉相比较：通俗描述、气质类型、优势及潜在弱点是否吻合。
+    </view>
+  </view>
+
+<view>
+<view class="TEST">
+ <navigator url="/pages/option/option?index={{index}}">
+  开始测试
+  </navigator>
+</view>
+</view>
+
+</view>
+
+
+
+</view>
+
+

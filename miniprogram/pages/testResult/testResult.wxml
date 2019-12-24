@@ -1,0 +1,131 @@
+    <view class="testResult_data">
+        <view>
+          <text>测试时间:</text>{{date_test}}
+        </view>
+      </view>
+      <view class="TR_container">
+      
+      
+        <view class="testResult_padding">
+          <view class="testResult_title">
+            <text>我的MBTI代码：</text>{{data.name}}
+          </view>
+          <view class="TR_HR"></view>
+          <view class="testResult_con">
+            <text>{{data.name}}:</text>{{data.con}}
+          </view>
+        </view>
+      
+        <view class="testResult_con1" wx:for="{{data.con1}}" wx:for-item="itemName">
+          <view class="testResult_title">
+            {{itemName.title}}
+          </view>
+          <view class="TR_HR"></view>
+          <view class="TR-item">
+            <view>
+              <text>1</text> {{itemName.con1_1}}</view>
+            <view>
+              <text>2</text> {{itemName.con1_2}}</view>
+            <view>
+              <text>3</text> {{itemName.con1_3}}</view>
+            <view>
+              <text>4</text> {{itemName.con1_4}}</view>
+          
+          <view>
+            <text>5</text> {{itemName.con1_5}}</view>
+            </view>
+        </view>
+     
+      
+      <view class="testResult_con2" wx:for="{{data.con2}}" wx:for-item="itemName2">
+        <view class="testResult_title">
+          {{itemName2.title}}
+        </view>
+        <view class="TR_HR"></view>
+        <view class="TR-item">
+          <view>
+            <text>1</text> {{itemName2.con2_1}}
+          </view>
+          <view>
+            <text>2</text> {{itemName2.con2_2}}
+          </view>
+          <view>
+            <text>3</text> {{itemName2.con2_3}}
+          </view>
+          <view>
+            <text>4</text> {{itemName2.con2_4}}
+          </view>
+      
+          <view>
+            <text>5</text> {{itemName2.con2_5}}
+          </view>
+        </view>
+      </view>
+      
+      <view class="testResult_con3" wx:for="{{data.con3}}" wx:for-item="itemName3">
+        <view class="testResult_title">
+          {{itemName3.title}}
+        </view>
+        <view class="TR_HR"></view>
+        <view class="TR-item">
+          <view>
+            <text>1</text> {{itemName3.con3_1}}</view>
+          <view>
+            <text>2</text> {{itemName3.con3_2}}</view>
+        </view>
+      </view>
+      
+      <view class="testResult_con4" wx:for="{{data.con4}}" wx:for-item="itemName4">
+        <view class="testResult_title">
+          {{itemName4.title}}
+        </view>
+        <view class="TR_HR"></view>
+        <view class="TR_con4">
+          <view>
+            <view class="TR_text">1</view>{{itemName4.con4_1}}</view>
+          <view>
+            <view class="TR_text">2</view> {{itemName4.con4_2}}</view>
+          <view>
+            <view class="TR_text">3</view> {{itemName4.con4_3}}</view>
+          <view>
+            <view class="TR_text">4</view> {{itemName4.con4_4}}</view>
+        </view>
+      
+      </view>
+      
+      <view class="testResult_con5" wx:for="{{data.con5}}" wx:for-item="itemName5">
+        <view class="testResult_title">
+          {{itemName5.title}}
+        </view>
+        <view class="TR_HR"></view>
+        <view class="TR-item">
+          <view>
+            <text>1</text>{{itemName5.con5_1}}</view>
+          <view>
+            <text>2</text> {{itemName5.con5_2}}
+          </view>
+        </view>
+      </view>
+      
+      <view class="testResult_con6" wx:for="{{data.con6}}" wx:for-item="itemName6">
+        <view class="testResult_title">
+          {{itemName6.title}}
+        </view>
+        <view class="TR_HR"></view>
+        <view class="TR-item">
+          <view>
+            <text>1</text> {{itemName6.con6_1}}
+          </view>
+          <view>
+            <text>2</text>{{itemName6.con6_2}}
+          </view>
+          <view>
+            <text>3</text>{{itemName6.con6_3}}
+          </view>
+          <view>
+            <text>4</text>{{itemName6.con6_4}}
+          </view>
+        </view>
+      </view>
+      </view>
+    

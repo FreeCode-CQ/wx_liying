@@ -1,0 +1,82 @@
+
+.my-bg{
+  position: relative;
+  z-index: 0;
+  width:100%;
+  height:400rpx;
+  filter: blur(2px);
+}
+.portrait{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: -145px;
+
+color: white
+}
+.ui{
+  margin-top: 60px
+}
+.li-items{
+  height: 45px;
+background: #fff;
+line-height: 45px;
+display: flex;
+padding: 0 10px;
+border-bottom: 1px solid #ccc
+/* margin: 10px 0 */
+}
+.ul-lis-img{
+  width: 22px;
+height: 22px;
+padding-top: 10px;
+margin-right: 10px
+}
+.ui-common-img{
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+
+}
+.li-item-box{
+  display: flex;
+  width: 93%
+}
+.getUserInfo_btn{
+  margin-top: -145px
+}
+.getUserInfo_btn > image{
+  width: 60px;
+height: 60px;
+border-radius: 50%;
+border: 1px solid #ccc
+}
+button::after{
+border:none;
+}
+.button-hover{
+ background-color: none !important
+}
+.manage{
+  font-size: 14px;
+margin: 10px;
+color: red;
+
+}
+.van-popup--center{
+  width: 90%
+}
+.Administrator_login{
+  width: 80%;
+  margin: 17px auto;
+  text-align: center;
+  border: 1px solid #1989fa;
+  color: #1989fa;
+  border-radius: 4px;
+height: 38px;
+line-height: 38px
+}
+.van-popup{
+  border-radius: 5px;
+  padding: 3px
+}

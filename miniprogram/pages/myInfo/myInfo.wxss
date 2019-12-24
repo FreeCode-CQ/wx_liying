@@ -1,0 +1,61 @@
+.myInfo_title{
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0
+}
+.mi_box{
+  width: 80%;
+  margin: 0 auto
+}
+.m-i-1{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc
+}
+.picker{
+  width: 100% !important;
+height: 50px !important; 
+overflow: hidden !important;
+background: #fff !important;
+text-align: center !important;
+border-radius: 10px;
+margin-top: 10px
+
+}
+.my_data_hr {
+  text-align: center;
+  font-size: 18px
+}
+.my_data_hr >text{
+  font-size: 14px;
+  color: #ccc
+}
+radio{
+margin-right: 10px;
+margin-top: 10px
+}
+.ruzhi_data{
+  text-align: center;
+  margin: 10px 0
+}
+.MYINFO2{
+  width: 90%;
+margin: 0 auto;
+
+}
+.decision{
+  display: flex;
+  margin: 20px 0
+}
+.decision view{
+  flex: 1
+}
+.decision1{
+  margin-left: 20px;
+  color: red
+}
+.decision2{
+  text-align: right;
+  margin-right: 20px;
+  color: rgb(51, 136, 255)
+}

@@ -1,0 +1,4 @@
+<view class="error">
+<view>您还没填写您的资料信息!</view>
+<van-button class="btn_primary" type="primary" bindtap="jump_myInfo">立即前往</van-button>
+</view>

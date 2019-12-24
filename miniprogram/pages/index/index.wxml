@@ -1,0 +1,399 @@
+<view class="container">
+  <view class="header">
+    <image class="image-home" src="../../images/2.jpg"></image>
+    <view class="header-btn">
+      <view class="btn-text" bindtap="jump_pay">立即体验</view>
+      <image class="btn-arrow" src="../../images/arrows_right2.png"></image>
+    </view>
+  </view>
+  <view class="content-1">
+
+
+    <image class="content-1-img" src="../../images/3.jpg"></image>
+    <view class="c-1-news">
+      <view class="c-1-title">
+        <view class="c-1-title-1">搁置问题会有哪些影响?</view>
+        <view class="c-1-title-2">DIFFICULT ISSUES</view>
+      </view>
+      <view class="c-1-content">
+        <view class="c-1-c-items">
+          <image style="width:60px;height:60px" src="../../images/img1.png"></image>
+          <view>三年人均收入少
+            <text>20%</text>
+          </view>
+        </view>
+        <view class="c-1-c-items">
+          <image style="width:60px;height:60px" src="../../images/img2.png"></image>
+          <view>平均晋升速度慢
+            <text>1.3年</text>
+          </view>
+        </view>
+
+        <view class="c-1-c-items">
+          <image style="width:60px;height:60px" src="../../images/img3.png"></image>
+          <view>心理压力
+            <text>N</text>倍</view>
+        </view>
+
+        <view class="c-1-c-items">
+          <image style="width:60px;height:60px" src="../../images/img4.png"></image>
+          <view>距离问题解决
+            <text>遥遥无期</text>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+  </view>
+
+
+  <view class="content-2">
+    <image style="width:100%;height:100%" src="../../images/bg1.png"></image>
+    <view class="content-2-1">
+      <view class="content-2-1-title">
+        <view class="content-2-1-title-1">如何正确解决职业问题</view>
+        <view class="content-2-1-title-2">HOW TO SOLVE PROBLEMS</view>
+      </view>
+      <view class="content-2-1-title-box">
+
+        <view class="c-2-1-t-b-items">
+          <view class="c-2-1-t-b-i-1">
+            <image src="../../images/wrong.png"></image>
+          </view>
+          <view class="c-2-1-t-b-i-2">
+            <view class="c-2-1-t-b-i-2-1">放任不管</view>
+            <view class="c-2-1-t-b-i-2-2">如何正确解决职业问题?</view>
+          </view>
+        </view>
+
+        <view class="c-2-1-t-b-items">
+          <view class="c-2-1-t-b-i-1">
+            <image src="../../images/wrong.png"></image>
+          </view>
+          <view class="c-2-1-t-b-i-2">
+            <view class="c-2-1-t-b-i-2-1">自我探索</view>
+            <view class="c-2-1-t-b-i-2-2">试错成本高，无法从根源解决问题?</view>
+          </view>
+        </view>
+
+        <view class="c-2-1-t-b-items">
+          <view class="c-2-1-t-b-i-1">
+            <image src="../../images/wrong.png"></image>
+          </view>
+          <view class="c-2-1-t-b-i-2">
+            <view class="c-2-1-t-b-i-2-1">求助亲友</view>
+            <view class="c-2-1-t-b-i-2-2">缺乏专业知识，建议缺乏科学性</view>
+          </view>
+        </view>
+
+        <view class="c-2-1-t-b-items">
+          <view class="c-2-1-t-b-i-1">
+            <image src="../../images/correct.png"></image>
+          </view>
+          <view class="c-2-1-t-b-i-2-special">
+            <view class="c-2-1-t-b-i-2-1">求助亲友</view>
+            <view class="c-2-1-t-b-i-2-2">缺乏专业知识，建议缺乏科学性</view>
+          </view>
+        </view>
+
+
+      </view>
+    </view>
+  </view>
+
+
+  <view class="content-3">
+    <view class="content-3-title">
+      <view class="content-3-t-1">如何系统性解决职业问题?</view>
+      <view class="content-3-t-2">SYSIEM SOLUTION</view>
+    </view>
+
+    <view class="c-3-box">
+      <image style="width:100%;height:100%" src="../../images/bg3.png"></image>
+    </view>
+    <view class="content-3-title">
+      <view class="content-3-t-1">一次咨询 四大收获</view>
+      <view class="content-3-t-2">CONSULTING RESULTS</view>
+    </view>
+    <view class="c-3-box-1">
+      <image style="width:100%;height:100%" src="../../images/bg4.png"></image>
+    </view>
+  </view>
+  <view class="content-4">
+    <image style="width:100%;" src="../../images/bg5.png"></image>
+    <image class="content-4-hot" src="../../images/hot.png"></image>
+    <view class="content-4-box">
+      <view class="content-2-1-title">
+        <view class="content-2-1-title-1" style="color: #3a1e1d;">服务内容</view>
+        <view class="content-2-1-title-2" style="color: #e5e4e4;">SERVICE CONTENT</view>
+      </view>
+    </view>
+    <view class="table">
+      <view class="table-item table-item-1">
+        <view>类别</view>
+        <view>单次咨询</view>
+        <view>案例咨询</view>
+      </view>
+      <view class="table-item table-item-2">
+        <view>90分钟语音咨询</view>
+        <view>1次</view>
+        <view>3次</view>
+      </view>
+      <view class="table-item table-item-3">
+        <view>分析问题</view>
+        <view>有</view>
+        <view>有</view>
+      </view>
+      <view class="table-item table-item-4">
+        <view>制定解决方案</view>
+        <view>单点突破</view>
+        <view class="special">系统解决</view>
+      </view>
+      <view class="table-item table-item-5">
+        <view>协助方案落地</view>
+        <view>无</view>
+        <view class="special">有</view>
+      </view>
+      <view class="table-item table-item-6">
+        <view>专业咨询报告</view>
+        <view>无</view>
+        <view class="special">有</view>
+      </view>
+      <view class="table-item table-item-7">
+        <view>服务有效期</view>
+        <view>30天</view>
+        <view>60天</view>
+      </view>
+      <view class="table-item table-item-8">
+        <view></view>
+        <view class="special-1">￥ 698</view>
+        <view class="special-1">￥ 1698</view>
+      </view>
+    </view>
+  </view>
+  <view class="content-5">
+    <view class="content-2-1-title">
+      <view class="content-2-1-title-1" style="color: #3a1e1d;">服务内容</view>
+      <view class="content-2-1-title-2" style="color: #e5e4e4;">SERVICE CONTENT</view>
+    </view>
+
+    <view class="content-5-box">
+      <view class="content-5-box-item">
+        <view class="content-5-box-positioning">
+          <image style="width:95px;height:90px" src="../../images/bg6.png"></image>
+          <view class="c-t-b-i-1">100
+            <text class="c-t-b-i-text">+</text>
+          </view>
+        </view>
+        <view>100+咨询师团队</view>
+        <view>均经过严格筛选</view>
+      </view>
+      <view class="content-5-box-item">
+        <view class="content-5-box-positioning">
+          <image style="width:95px;height:90px" src="../../images/bg6.png"></image>
+          <view class="c-t-b-i-1">1000
+            <text class="c-t-b-i-text">+</text>
+          </view>
+        </view>
+        <view>具有1000小时</view>
+        <view>以上的咨询经验</view>
+      </view>
+      <view class="content-5-box-item">
+        <view class="content-5-box-positioning">
+          <image style="width:95px;height:90px" src="../../images/bg6.png"></image>
+          <view class="c-t-b-i-2">96
+            <text>%</text>
+          </view>
+        </view>
+        <view>96%超高好评率</view>
+        <view>见证服务效果</view>
+      </view>
+      <view class="content-5-box-item">
+        <view class="content-5-box-positioning">
+          <image style="width:95px;height:90px" src="../../images/bg6.png"></image>
+          <view class="c-t-b-i-3">30</view>
+        </view>
+        <view>购买后30天支持期</view>
+        <view>让您售后无忧</view>
+      </view>
+    </view>
+
+    <view class="content-5-info">
+      <view class="c-5-i-title">保密信息</view>
+      <view class="c-5-i-hr"></view>
+      <text class="c-5-i-box">励英承诺在咨询过程中涉及到您的个人信息仅用于生涯咨询服务。在未经您允许的情况下，所有咨询信息都会被严格保密。</text>
+    </view>
+  </view>
+
+
+  <view class="content-6">
+    <view class="content-2-1-title" style="margin-top: 20px;">
+      <view class="content-2-1-title-1" style="color: #3a1e1d;">服务流程</view>
+      <view class="content-2-1-title-2" style="color: #e5e4e4;">SERVICE FLOW</view>
+    </view>
+
+    <view class="content-6-box">
+      <view class="c-6-box-items c-6-box-items-after">
+        <view class="c-6-b-1">
+          <image style="width:40px;height:40px" src="../../images/order_2.png"></image>
+        </view>
+        <view class="c-6-b-2">
+          支付成功
+        </view>
+      </view>
+
+      <!-- ------------------ -->
+      <view class="c-6-box-items c-6-box-items-after">
+        <view class="c-6-b-1">
+          <image style="width:40px;height:40px" src="../../images/date.png"></image>
+        </view>
+        <view class="c-6-b-2">
+          1个工作日内匹配咨询师、初步沟通
+        </view>
+      </view>
+
+      <view class="c-6-box-items c-6-box-items-after">
+        <view class="c-6-b-1">
+          <image style="width:40px;height:40px" src="../../images/crowd.png"></image>
+        </view>
+        <view class="c-6-b-2">
+          电话 / 微信语音1对1正式咨询
+        </view>
+      </view>
+
+      <view class="c-6-box-items c-6-box-items-after">
+        <view class="c-6-b-1">
+          <image style="width:40px;height:40px" src="../../images/consult.png"></image>
+        </view>
+        <view class="c-6-b-2">
+          电话 / 微信语音1对1正式咨询
+        </view>
+      </view>
+
+      <view class="c-6-box-items c-6-box-items-after">
+        <view class="c-6-b-1">
+          <image style="width:40px;height:40px" src="../../images/report_query.png"></image>
+        </view>
+        <view class="c-6-b-2">
+          出具专业咨询报告
+          <text>（仅限案例模式）</text>
+        </view>
+      </view>
+
+      <view class="c-6-box-items ">
+        <view class="c-6-b-1">
+          <image style="width:40px;height:40px" src="../../images/service_2.png"></image>
+        </view>
+        <view class="c-6-b-2">
+          有效期内完成咨询，30天后续支持
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+  <view class="content-7">
+    <view class="content-2-1-title" style="margin-top: 20px;">
+      <view class="content-2-1-title-1" style="color: #fff;">服务流程</view>
+      <view class="content-2-1-title-2" style="color: rgba( 243,240,238,.4);;">USER EVALUATION</view>
+    </view>
+    <view class="content-7-box">
+      <view class="c-7-box-item">
+        <view class="c-7-box-i-1">万女士</view>
+        <view class="c-7-box-i-2">服务内容:单次咨询
+          <text>评分：10分</text>
+        </view>
+        <view class="c-7-box-i-3">
+          喜欢这样的沟通和帮助的模式，引导思考，看清问题本质，得到的想法和答案才是最深入内心的，才是我最想要的问题解决办法，黄老师的引导和陪伴非常棒，最满意的地方是引导把问题，把内心完全铺成开来，那么直接清晰的看到所有的自己，只有人的部分了解了明白了，职业的问题就清晰了。
+        </view>
+      </view>
+
+      <view class="c-7-box-item">
+        <view class="c-7-box-i-1">张先生 </view>
+        <view class="c-7-box-i-2">服务内容:案例式咨询
+          <text>评分：10分</text>
+        </view>
+        <view class="c-7-box-i-3">
+          服务过程很顺利，鱼姐很专业，能够通过前期的资料准备和沟通过程中的信息来发现个人真实诉求，之后再通过引导让我自己逐渐去明白自己的想法。同时也针对我个人的一些缺点给出建议！非常有用！一次非常有成效的沟通！
+        </view>
+      </view>
+
+      <view class="c-7-box-item">
+        <view class="c-7-box-i-1">陈先生 </view>
+        <view class="c-7-box-i-2">服务内容:单次咨询
+          <text>评分：10分</text>
+        </view>
+        <view class="c-7-box-i-3">
+          已推荐给朋友。第一次咨询，开始有点小紧张，但是老师很有亲和力，非常专业，很有水平，能够很快锁定问。不仅帮助我解决了当下思路与焦虑的问题，还帮我诊断了过往职场的问题，老师在事前还会做自己的资料整理，服务非常完善，效果超过预期，花点钱给自己的未来把把脉非常值得！
+        </view>
+      </view>
+      
+      <view class="c-7-box-item">
+        <view class="c-7-box-i-1">于先生 </view>
+        <view class="c-7-box-i-2">服务内容:案例式咨询
+          <text>评分：9分</text>
+        </view>
+        <view class="c-7-box-i-3">
+          非常感谢Cathy老师的帮助。这种启发式的问答帮我理了一下内心的想法。很多问题要问自己才有结果，或许还要多问自己几次。我先完成功课，后面希望能进一步交流，争取能有个清晰的判断吧。对于优柔寡断的我，这个咨询很有帮助。再次感谢老师的指导。祝好， Yu
+        </view>
+      </view>
+
+    </view>
+     <view class="content-2-1-title" style="margin-top: 20px;">
+      <view class="content-2-1-title-1" style="color: #fff;">你可能还有这些疑问</view>
+      <view class="content-2-1-title-2" style="color: rgba( 243,240,238,.4);;">OTHER PROBLEMS</view>
+    </view>
+    <van-collapse class="collapse" value="{{ activeNames }}" bind:change="onChange">
+      <van-collapse-item name="1">
+        <view slot="title">
+        <view> <text class="c-6-collapse-text">Q1:</text> 咨询师都是什么行业的，经验丰富吗？</view> 
+        </view>
+        提供多样店铺模板，快速搭建网上商城
+      </van-collapse-item>
+
+
+      <van-collapse-item  name="2">
+        <view slot="title">
+        <view> <text class="c-6-collapse-text">Q2:</text> 如何选择为我服务的咨询师？</view> 
+        </view>
+       您支付成功后，我们会根据您的个人简历和留言内容，为您选择行业经验匹配且擅长解决您困惑的咨询师为您服务。
+      </van-collapse-item>
+     
+     <van-collapse-item name="3">
+        <view slot="title">
+        <view> <text class="c-6-collapse-text">Q3:</text>下单后多久可以开始咨询？</view> 
+        </view>
+      您支付成功，并完善个人信息后，咨询师会在一个工作日内联系您，和您确认正式咨询时间，请下单后保持电话畅通。
+      </van-collapse-item>
+
+       <van-collapse-item name="4">
+        <view slot="title">
+        <view> <text class="c-6-collapse-text">Q4:</text>如果对咨询不满意，我该怎么办？</view> 
+        </view>
+      如果您对我们的咨询服务感到不满意，在正式咨询的前半小时内可以中止咨询，拨打客服电话（400-6212-266）要求调换咨询师或者退款；若未在表示异议，则视为认可咨询师的服务质量，将继续进行咨询。
+      </van-collapse-item>
+
+      <van-collapse-item name="5">
+        <view slot="title">
+        <view> <text class="c-6-collapse-text">Q5:</text>售后支持是以怎样的形服务的？</view> 
+        </view>
+      正式咨询结束后，进入30天售后服务期，在售后服务期限内，关于本次咨询的问题，您还有疑惑，可以随时和咨询师提问寻求帮助。
+      </van-collapse-item>
+
+        <van-collapse-item name="6">
+        <view slot="title">
+        <view> <text class="c-6-collapse-text">Q6:</text>我的个人咨询信息能够保密么？</view> 
+        </view>
+     咨询师承诺，未经来询者同意，不会泄露来询者在咨询中的任何资料。同时来询者也需为此次的咨询内容保密。具体保密条款见《职业发展咨询服务协议》
+      </van-collapse-item>
+      <van-collapse-item name="7">
+        <view slot="title">
+        <view> <text class="c-6-collapse-text">Q7:</text>预约了咨询时间，临时有事怎么办？</view> 
+        </view>
+     如您已经预约时间，请至少在正式咨询1小时前，跟咨询师取得联系，重新预约沟通时间。单次咨询需要在30天内、案例式咨询需要在60天内完成咨询。
+      </van-collapse-item>
+    </van-collapse>
+
+  </view>
+</view>

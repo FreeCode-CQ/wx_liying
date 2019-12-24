@@ -1,0 +1,41 @@
+<view class="pay-box">
+  <view class="pay-title">
+    请依据您的需要，选择合适的服务
+    <view class="pay-before"></view>
+  </view>
+
+  <view class="pay-content">
+    <view class="p-c-items {{active == index+1 ?'active':''}}" wx:for="{{view_1}}" data-index="{{index+1}}" bindtap="active_index">
+      <view class="p-c-i-1">
+        <view class="p-c-i-1-1">{{item.title}}</view>
+        <view class="p-c-i-1-2">
+          <view class="p-c-i-1-2-1">{{item.a_price}}</view>
+          <view class="p-c-i-1-2-2">{{item.b_price}}</view>
+        </view>
+      </view>
+      <view class="p-c-i-2">
+        {{item.content}}
+      </view>
+      <view wx:if="{{index == 1}}">
+       <view style="color:red">购买后的增值服务:</view>
+       <view class="zjk_add">
+         <view> <text>1.</text> 对接专门的辅导老师</view>
+         <view> <text>2.</text> 专题的职业岗位培训</view>
+         <view> <text>3.</text> 介绍进入企业学习</view>
+          <view> <text>4.</text> 简历知道服务</view>
+       </view>
+      </view>
+    </view>
+
+    <view class="pay-bottom">
+      <view class="pay-info">
+        温馨提示：此服务为顾问1对1的职业咨询服务，本服务的最终解释权归励英所有。
+      </view>
+      <view class="pay-btn" bindtap="pay_btn">立即购买</view>
+    </view>
+
+  </view>
+
+
+</view>
+<van-dialog id="van-dialog" />

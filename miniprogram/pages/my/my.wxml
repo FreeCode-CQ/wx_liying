@@ -1,0 +1,60 @@
+<view>
+   <view class="my-title">
+     <image class="my-bg" src="../../images/my_bg.jpg"></image>
+         <view class="portrait" style="display:{{logo_if?'block':'none'}}">
+         <image style="width:60px;height:60px;border-radius:50%" src="{{user_view.avatarUrl}}"></image>
+         <view class="nickname">
+           {{user_view.nickName}}
+         </view>
+         
+         <!-- <view>前端|广州得翼</view> -->
+    </view>
+    <button open-type="getUserInfo" class="getUserInfo_btn" hover-class="none" lang="zh_CN" bindgetuserinfo="onGotUserInfo" style="display:{{logo_if?'none':'block'}}">
+       <image src="../../images/my_1.png"></image>
+       <view class="getUserInfo_text">未登录</view>
+    </button>
+    
+   </view>
+      <view class="ui">
+          <view class="li-items" wx:for="{{list}}" data-index="{{index}}" bindtap="jump_info">
+          <view class="li-item-box">
+ <image class="ul-lis-img" src="{{item.image}}"></image>
+          <view>
+           {{item.text}}
+          </view>
+          </view>
+         
+          <image class="ui-common-img" src="../../images/arrows _right.png"></image>
+          </view>
+      </view>
+
+</view>
+<button style="width: 100%;background: #fff;" open-type='contact'>联系客服</button>
+
+<view class="manage"  bindtap="showPopup">管理员登陆</view>
+
+<van-popup  show="{{ show }}" bind:close="onClose" round="true">
+<van-cell-group>
+<van-field
+    value="{{username}}"
+    required
+    clearable
+    label="用户名"
+    icon="question-o"
+    placeholder="请输入用户名"
+        bindinput="userInput"
+    bind:click-icon="onClickIcon"
+  />
+  <view style="magrin-top:100px;height: 10px;"></view>
+  <van-field
+    type="password"
+    label="密码"
+    placeholder="请输入密码"
+    required
+    value="{{password}}"
+     bindinput="password"
+    border="{{ false }}"
+  />
+  <view class="Administrator_login" bindtap="Administrator_click">登陆</view>
+  </van-cell-group>
+</van-popup>

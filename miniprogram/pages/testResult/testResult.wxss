@@ -1,0 +1,84 @@
+page {
+  background-color: #fff;
+}
+
+
+
+.testResult_data{
+   font-size: 12px;
+   height: 30px;
+   line-height: 30px;
+   text-align: center;
+   margin: 0 auto;
+   width: 80%;
+   background: #f9f9f9;
+   color: #999
+}
+.testResult_data  text{
+  margin-right: 10px;
+}
+.TR_container >view{
+  /* margin: 20px; */
+  margin-top: 10px;
+  border-top: 5px solid #f9f9f9;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  /* border-bottom: 5px solid #f9f9f9; */
+}
+.testResult_title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px auto
+}
+.testResult_title > text{
+  margin-right: 10px
+}
+.testResult_con{
+  width: 90%;
+  margin: 0 auto
+}
+.testResult_con  text{
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 10px
+}
+.testResult_con {
+  font-size: 14px
+}
+.TR_HR{
+  width: 20px;
+  height: 3px;
+  background: #f64;
+  margin: 0 auto
+}
+.TR-item >view{
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px
+}
+.TR-item  text{
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-left: 10px
+}
+.TR_con4 >view{
+display: flex;
+margin: 0 10px
+}
+.TR_con4{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0
+
+}
+.TR_text{
+  background:#f64;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center
+
+}

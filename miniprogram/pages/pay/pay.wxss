@@ -1,0 +1,109 @@
+.pay-box {
+  background: #fff;
+  padding: 15px 16px 30px;
+  /* height: 900rpx; */
+}
+
+.pay-title {
+  position: relative;
+  font-size: 40rpx;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.pay-before {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: -16px;
+  width: 4px;
+  height: 15px;
+  background-color: #f64;
+}
+
+.p-c-items {
+  position: relative;
+  padding: 30rpx;
+      border: 1px solid hsla(0,0%,86.7%,.5);
+     margin-top: 22rpx;
+}
+
+.p-c-i-1 {
+  display: flex;
+ padding-bottom: 20rpx;
+  border-bottom: 1px solid #f64;
+}
+
+.p-c-i-1-1 {
+  width: 50%;
+  font-size: 38rpx;
+  line-height: 50px;
+  color: #333;
+}
+
+.p-c-i-1-2 {
+  width: 50%;
+}
+
+.p-c-i-1-2-1 {
+  font-size: 40rpx;
+  color: #f64;
+  line-height: 24px;
+  text-align: right;
+}
+
+.p-c-i-1-2-2 {
+  font-size: 35rpx;
+  text-align: right;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.p-c-i-2 {
+  padding: 18rpx 3px 7px;
+  color: #666;
+  font-size: 32rpx;
+  line-height: 22.5px;
+}
+.pay-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0
+}
+.pay-info{
+    color: #666;
+    font-size: 32rpx;
+    padding: 10rpx 16px;
+    line-height: 20px;
+}
+
+.pay-btn{
+  
+      height: 50px;
+    line-height: 50px;
+       background-color: #fc6621;
+    border: 0;
+    color: #fff;
+    bottom: 12px;
+    width: 90%;
+    padding: 0;
+    margin: 8rpx auto;
+    font-size: 16px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 4px
+}
+.active{
+  border-color: #f64 !important;
+    background-color: #fff0ee !important;
+}
+.active ::after{
+      position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 22px;
+    height: 22px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsBAMAAADsqkcyAAAAKlBMVEUAAAD/aEb/ZkT/////akn/0sj/xLf/+/r/lH3/8e7/f2P/j3b/zsP/9vSv/dmpAAAAAnRSTlMAgJsrThgAAACnSURBVCjPbdGhDcJQGEXhwwqMUEFIkH8QWDyODTpCh8AwQYPqEqxHH21zK86VJ5+7HDsbB8/OcY7yE8p7jJ8K431BeHAhvG85PPjKnl+mFT/Z8++44juEX4bbtOAOwh9V44I7CD8PdZv+uOXwV9Wn4S2HV8NbDm84OXzGyeEzTg5/dsnh73tyeL7c82TnOMc5znGOc5zjHOc4xznOcY5znOMc5zjH+Q+5bkx+iNf4WwAAAABJRU5ErkJggg==) no-repeat;
+        background-size: contain;
+}

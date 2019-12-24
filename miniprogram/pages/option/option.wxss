@@ -1,0 +1,37 @@
+.option{
+  text-align: center
+}
+radio {
+display: block;
+margin-top:10px ;
+margin-left: 20px
+}
+.page__hd{
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #fff
+}
+.page__title{
+  font-size: 16px;
+  
+}
+.page__title text{
+  font-size: 18px;
+   margin-right: 10px;
+   margin-left: 20px
+}
+.page__bd_text{
+  font-size: 16px;
+  width: 625rpx
+}
+.option_btn{
+  width: 90%;
+  margin: 10px auto;
+  background: #fc6621;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  /* display: none */
+}

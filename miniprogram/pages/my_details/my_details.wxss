@@ -1,0 +1,18 @@
+.my_details-1{
+  background: #fff;
+  margin-top: 20px
+}
+.my-d-title{
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+
+}
+.my-d-box1{
+  height: 40px;
+  line-height: 40px
+}
+.my-d-box1 > text{
+  margin-right: 10px;
+  font-weight: 550
+}

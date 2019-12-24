@@ -1,0 +1,5 @@
+<button bindtap="but">向数据库添加数据</button>
+<button bindtap="but_1">向数据库获取数据</button>
+<button bindtap="but_2">向数据库更新数据</button>
+
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>

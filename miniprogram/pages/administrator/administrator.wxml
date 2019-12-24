@@ -1,0 +1,20 @@
+<view class="title">所有用户 数量：{{userDate.length}}</view>
+
+<view wx:for="{{userDate}}" class="userS" >
+  <view class="user-1">
+    <image class="user_img" src="{{item.avatarUrl}}"></image>
+    <view>{{item.nickName}}</view>
+  </view>
+  <view class="user-2">
+  <view class="user_details" data-id="{{item._id}}" bindtap="user_details">
+   查看详情
+  </view>
+   
+  </view>
+
+</view>
+
+<view style="display:none">
+<view class="Pop-up-layer"></view>
+<view class="Pop-up-content"></view>
+</view>
